@@ -1,0 +1,9 @@
+C CALCULATE THE AVERAGE OF THREE NUMBERS
+      PROGRAM AVERAGE
+      X=90.5
+      Y=87.0
+      Z=68.5
+      AVER=(X+Y+Z)/3.0
+      PRINT *, 'THE THREE NUMBERS ARE', X, Y, Z
+      PRINT *, 'AVERAGE=', AVER
+      END

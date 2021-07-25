@@ -1,0 +1,9 @@
+c      f77 avg3num.f -o avg3num 
+C CALCULATE THE AVERAGE OF THREE NUMBERS
+	X=90.5
+	Y=87.0
+	Z=68.5
+	AVER=(X+Y+Z)/3.0
+	PRINT *, 'THE THREE NUMBERS ARE', X, Y, Z
+	PRINT *, 'AVERAGE=', AVER
+	END

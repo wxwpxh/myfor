@@ -1,0 +1,12 @@
+PROGRAM C2106
+INTEGER , POINTER :: A=>NULL(),B=>NULL()
+INTEGER , TARGET :: C
+INTEGER :: D
+  C = 1
+  A => C
+  C = 2
+  B = A
+  D = A + B
+  PRINT *,A,B,C,D
+END PROGRAM C2106
+

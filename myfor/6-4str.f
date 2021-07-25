@@ -1,0 +1,7 @@
+C	读入10个单词，把以字母A开头的打印出来
+	CHARACTER*10 WORD
+	DO 10, I=1, 10
+		READ *, WORD
+	IF (WORD(1:1) .EQ. 'A') PRINT *, WORD
+10	CONTINUE
+	END

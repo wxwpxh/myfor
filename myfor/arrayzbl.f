@@ -1,0 +1,20 @@
+C MAIN PROGRAM
+      PROGRAM ARRAYZBL
+      DOUBLE PRECISION A,B,C,D(0:10)
+      INTEGER I
+      DATA A,B,C/1.0,2.0,3.0/
+      DO 10,I=0,10
+            D(I)=I
+ 10   CONTINUE
+      WRITE(*,*)A,B,C
+      WRITE(*,*)D
+      WRITE(*,*)
+      CALL SUBARRZBL(D)
+      STOP
+      END
+
+C SUBROUTINE
+      SUBROUTINE SUBARRZBL(A)
+      DOUBLE PRECISION A(0:10)
+      WRITE(*,*)A
+      END

@@ -1,0 +1,5 @@
+! f95 hello.f95 -o hello
+PROGRAM HELLO
+IMPLICIT NONE
+PRINT *,"Hello! Fortran 90/95"
+END PROGRAM HELLO

@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dialog - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP176.tmp" with contents
+[
+/compile_only /libs:qwin /nologo /warn:nofileopt /module:"Release/" /object:"Release/" 
+"E:\编程资料\fortran电子书\fortran95程序设计\Fortran95\program\chap17\dialog\DIALOG.F90"
+]
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP177.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /entry:"WinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Release/dialog.pdb" /machine:I386 /nodefaultlib:"dfconsol.lib" /out:"Release/dialog.exe" 
+".\Release\DIALOG.OBJ"
+".\Release\RESOURCE.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP177.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+E:\编程资料\fortran电子书\fortran95程序设计\Fortran95\program\chap17\dialog\DIALOG.F90
+f90: Severe: Invalid argument
+... file is 'E:\±à3ì×êá?\fortranμ?×óêé\fortran953ìDòéè??\Fortran95\program\chap17\dialog\DIALOG.F90'
+Error executing df.exe.
+
+
+
+<h3>Results</h3>
+dialog.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
